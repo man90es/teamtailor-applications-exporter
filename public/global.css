@@ -1,0 +1,24 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	align-items: center;
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+	margin: 0;
+}
+
+button {
+	background-color: #ddd;
+	border: none;
+	cursor: pointer;
+	padding: 1em;
+	transition-duration: 0.3s;
+}
+
+button:hover {
+	background-color: #ddf;
+}
